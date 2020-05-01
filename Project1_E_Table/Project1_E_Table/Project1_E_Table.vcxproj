@@ -147,7 +147,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DynamicCharArray.cpp" />
     <ClCompile Include="Project1_E_Table.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DynamicCharArray.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
